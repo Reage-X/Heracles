@@ -1,0 +1,20 @@
+# dossiers node_modules
+node_modules/
+
+# fichiers d'environnement sensibles
+.env
+.env.local
+
+# dossiers de build React
+dist/
+build/
+
+# dossier de configuration VSCode
+.vscode/
+
+# logs
+*.log
+npm-debug.log*
+
+# fichiers de cache Windows
+Thumbs.db
