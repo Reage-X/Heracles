@@ -30,12 +30,12 @@ function App() {
     }
   };
 
-  // Fonction pour basculer le thème (moule attendu par la Navbar)
+  // Fonction pour basculer le thème
   const toggleTheme = () => {
     setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
   };
 
-  // Fonction de déconnexion propre (manquante à l'appel historiquement)
+  // Fonction de déconnexion propre
   const handleLogout = () => {
     localStorage.removeItem('token');
     sessionStorage.removeItem('token');
